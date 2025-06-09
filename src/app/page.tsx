@@ -34,12 +34,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">Веб-разработка</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">Веб-разработка</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                       Создание современных веб-сайтов и веб-приложений с использованием передовых технологий.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#web-development" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -58,12 +58,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">Разработка приложений</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">Разработка приложений</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                       Создание мобильных приложений для iOS и Android с нативным пользовательским опытом.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#app-development" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -82,12 +82,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">Telegram боты</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">Telegram боты</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                       Разработка умных ботов для автоматизации бизнес-процессов и улучшения коммуникации.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#telegram-bots" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -109,12 +109,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">AI ассистенты</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">AI ассистенты</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                       Внедрение искусственного интеллекта для оптимизации бизнес-процессов.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#ai-assistants" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -133,12 +133,12 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">Автоматизация бизнеса</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">Автоматизация бизнеса</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                       Создание систем автоматизации для повышения эффективности вашего бизнеса.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#business-automation" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -157,13 +157,13 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
-                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-purple-600 transition-colors duration-300">Парсинг данных</h3>
+                    <h3 className="text-2xl font-semibold mb-3 text-slate-800 group-hover:text-blue-600 transition-colors duration-300">Парсинг данных</h3>
                     <p className="text-slate-600 mb-6 leading-relaxed">
                     Сбор данных с различных ресурсов для последующего анализа и обработки. 
                     Автоматизированное извлечение структурированной информации.
                     </p>
                     <div className="mt-auto">
-                      <a href="#" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
+                      <a href="/services#data-parsing" className="inline-flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform duration-300">
                         Подробнее
                         <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -583,72 +583,83 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="section-title text-center mb-12">Отзывы клиентов</h2>
+          <h2 className="text-4xl font-bold text-center mb-4">Отзывы клиентов</h2>
+          <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">Узнайте, что говорят о нас наши клиенты и партнеры</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="card">
-              <div className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold">
+            <div className="card bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl font-bold shadow-lg">
                     АК
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-semibold">Алексей К.</h4>
-                    <p className="text-slate-600 text-sm">CEO, TechStart</p>
+                    <h4 className="font-bold text-lg">Алексей К.</h4>
+                    <p className="text-slate-600">CEO, AgroCor</p>
                   </div>
                 </div>
-                <p className="text-slate-600">
+                <p className="text-slate-700 leading-relaxed">
                   "Отличная команда профессионалов. Сделали для нас современный сайт и автоматизировали бизнес-процессы. Рекомендую!"
                 </p>
+                <div className="mt-6 flex text-yellow-400">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="card">
-              <div className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold">
+
+            <div className="card bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl font-bold shadow-lg">
                     МС
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-semibold">Мария С.</h4>
-                    <p className="text-slate-600 text-sm">Директор, RetailPro</p>
+                    <h4 className="font-bold text-lg">Мария С.</h4>
+                    <p className="text-slate-600">Директор, Weboptimize</p>
                   </div>
                 </div>
-                <p className="text-slate-600">
+                <p className="text-slate-700 leading-relaxed">
                   "Внедрили AI-ассистента для обработки заказов. Эффективность работы выросла на 40%. Спасибо за профессионализм!"
                 </p>
+                <div className="mt-6 flex text-yellow-400">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="card">
-              <div className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold">
+
+            <div className="card bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl font-bold shadow-lg">
                     ДП
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-semibold">Дмитрий П.</h4>
-                    <p className="text-slate-600 text-sm">CTO, FinTech</p>
+                    <h4 className="font-bold text-lg">Дмитрий П.</h4>
+                    <p className="text-slate-600">CTO, Andthebrand</p>
                   </div>
                 </div>
-                <p className="text-slate-600">
+                <p className="text-slate-700 leading-relaxed">
                   "Разработали для нас Telegram-бота с интеграцией платежной системы. Работает отлично, поддержка на высоте!"
                 </p>
+                <div className="mt-6 flex text-yellow-400">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Готовы начать проект?</h2>
-          <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
-            Оставьте заявку, и мы свяжемся с вами для обсуждения деталей вашего проекта.
-          </p>
-          <Link href="/contacts" className="btn-primary">
-            Обсудить проект
-          </Link>
         </div>
       </section>
 

@@ -33,13 +33,13 @@ export default function Hero() {
             <div 
               className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-700 hover:scale-105"
               style={{
-                backgroundImage: "url('/main2.jpeg')",
+                backgroundImage: "url('/title.webp')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
               {/* Enhanced Overlay Gradient */}
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-900/10 via-slate-800/20 to-slate-900/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-blue-400/30 to-blue-300/20"></div>
               {/* Additional subtle gradient for depth */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent"></div>
             </div>

@@ -27,9 +27,6 @@ export default function Header() {
             <Link href="/portfolio" className="nav-link">
               Портфолио
             </Link>
-            <Link href="/testimonials" className="nav-link">
-              Отзывы
-            </Link>
             <Link href="/contacts" className="nav-link">
               Контакты
             </Link>
